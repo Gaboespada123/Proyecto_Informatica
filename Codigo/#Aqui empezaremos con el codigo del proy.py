@@ -1,6 +1,6 @@
 import csv
 import os
-path = r"S:\Progamación\TG\Archivos\Reviews.csv\Reviews.csv"
+path = r"S:\Progamación\TG\Archivos_TG\Reviews.csv"
 if not os.path.exists(path):
     print(f"Error: El archivo no existe en {path}")
     exit()
