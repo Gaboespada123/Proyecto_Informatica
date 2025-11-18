@@ -1,0 +1,10 @@
+{
+    "nombre": "Ana",
+    "id": 12345,
+    "cursos": [
+        "Programaci\u00f3n",
+        "IA",
+        "Datos"
+    ],
+    "activo": true
+}
