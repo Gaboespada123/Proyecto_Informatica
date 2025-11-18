@@ -1,5 +1,5 @@
 #Aqui solo cargamos y leemos el archivo. Sin las cosas que pide
-#70% IA GENERATED - NO SE CONSIDERARA PARA LA PRESENTACION DEL TG
+
 from pathlib import Path
 import csv
 import sys
