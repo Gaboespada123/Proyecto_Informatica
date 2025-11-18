@@ -1,0 +1,6 @@
+Archivos/Reviews.csv filter=lfs diff=lfs merge=lfs -text
+Archivos/ filter=lfs diff=lfs merge=lfs -text
+Archivos/Reviews.csv.zip filter=lfs diff=lfs merge=lfs -text
+Archivos[[:space:]]TG/Reviews.cvs filter=lfs diff=lfs merge=lfs -text
+Archivos_TG/Reviews.cvs filter=lfs diff=lfs merge=lfs -text
+Archivos_TG/Reviews.csv filter=lfs diff=lfs merge=lfs -text
