@@ -1,0 +1,81 @@
+\doxysection{src/main.py File Reference}
+\hypertarget{main_8py}{}\label{main_8py}\index{src/main.py@{src/main.py}}
+
+
+Programa principal otimizado para manipulação de vetores.  
+
+
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{main_8py_a4e1f5488d28a93d963313a77fbd02083}\label{main_8py_a4e1f5488d28a93d963313a77fbd02083} 
+list {\bfseries main.\+Vetor} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em Vetor principal que armazena os dados do usuário. \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{main_8py_a8c80907e52cb3aabd6acd36bbe20232f}{main.\+matriz\+\_\+resultante\+\_\+final}} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em Armazena a matriz NxN gerada pela opção 10. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8py_a9f3911118b78333a8f963e063f12c7ed}{main.\+parser}}
+\item 
+\Hypertarget{main_8py_add4e4c9e96030cc8c55af23e1b21a1c1}\label{main_8py_add4e4c9e96030cc8c55af23e1b21a1c1} 
+{\bfseries main.\+type}
+\item 
+\Hypertarget{main_8py_af65ea1f7cf2ee4911befba82862a89dc}\label{main_8py_af65ea1f7cf2ee4911befba82862a89dc} 
+{\bfseries main.\+int}
+\item 
+\Hypertarget{main_8py_ad58e82b6af113887c15fd471f16724af}\label{main_8py_ad58e82b6af113887c15fd471f16724af} 
+{\bfseries main.\+choices}
+\item 
+\Hypertarget{main_8py_a1fdabe2077f86bd72dbb433530b1f192}\label{main_8py_a1fdabe2077f86bd72dbb433530b1f192} 
+{\bfseries main.\+help}
+\item 
+\Hypertarget{main_8py_a2803ba3b09711e637c2dba101af9d0f9}\label{main_8py_a2803ba3b09711e637c2dba101af9d0f9} 
+{\bfseries main.\+nargs}
+\item 
+\Hypertarget{main_8py_a47602376417b8d5882aab8098cad4f29}\label{main_8py_a47602376417b8d5882aab8098cad4f29} 
+{\bfseries main.\+VECTOR\+\_\+\+SIZE}
+\item 
+\Hypertarget{main_8py_a10926d7b7053badc9647defe0abb8adc}\label{main_8py_a10926d7b7053badc9647defe0abb8adc} 
+{\bfseries main.\+args} = parser.\+parse\+\_\+args()
+\item 
+\Hypertarget{main_8py_a92cc5b45bb1ac1ac747961502aa6b700}\label{main_8py_a92cc5b45bb1ac1ac747961502aa6b700} 
+{\bfseries main.\+n} = \mbox{\hyperlink{calculos_8py_aec0c6f964c14e964b6ae0273a18cc3a2}{numero\+\_\+valido}}(f"{}\+Introduza um número entre -\/10 e 27 (\{i+1\}/\{VECTOR\+\_\+\+SIZE\})\+: "{}, -\/10, 27)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Programa principal otimizado para manipulação de vetores. 
+
+Ponto de entrada que gere argumentos, inicializa o vetor e inicia o programa. \begin{DoxyAuthor}{Author}
+Gabriel Salazar, Daniel Colavito, Leandro Apolo, Jorge Altamirano 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+2 
+\end{DoxyVersion}
+
+
+\label{doc-var-members}
+\Hypertarget{main_8py_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{main_8py_a8c80907e52cb3aabd6acd36bbe20232f}\index{main.py@{main.py}!matriz\_resultante\_final@{matriz\_resultante\_final}}
+\index{matriz\_resultante\_final@{matriz\_resultante\_final}!main.py@{main.py}}
+\doxysubsubsection{\texorpdfstring{matriz\_resultante\_final}{matriz\_resultante\_final}}
+{\footnotesize\ttfamily \label{main_8py_a8c80907e52cb3aabd6acd36bbe20232f} 
+list main.\+matriz\+\_\+resultante\+\_\+final = \mbox{[}$\,$\mbox{]}}
+
+
+
+Armazena a matriz NxN gerada pela opção 10. 
+
+É inicializada como lista vazia e atualizada globalmente. \Hypertarget{main_8py_a9f3911118b78333a8f963e063f12c7ed}\index{main.py@{main.py}!parser@{parser}}
+\index{parser@{parser}!main.py@{main.py}}
+\doxysubsubsection{\texorpdfstring{parser}{parser}}
+{\footnotesize\ttfamily \label{main_8py_a9f3911118b78333a8f963e063f12c7ed} 
+main.\+parser}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ argparse.ArgumentParser(}
+\DoxyCodeLine{00002\ \ \ \ \ \ \ \ \ description=\textcolor{stringliteral}{'Este\ é\ o\ programa\ interativo\ para\ manipular\ vetores.'},}
+\DoxyCodeLine{00003\ \ \ \ \ \ \ \ \ epilog=\textcolor{stringliteral}{'Para\ ajuda\ detalhada\ sobre\ opções\ de\ linha\ de\ comando,\ use\ "{}python\ seu\_script.py\ -\/-\/help"{}.'}}
+\DoxyCodeLine{00004\ \ \ \ \ )}
+
+\end{DoxyCode}

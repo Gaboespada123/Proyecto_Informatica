@@ -1,0 +1,341 @@
+\doxysection{src/calculos.py File Reference}
+\hypertarget{calculos_8py}{}\label{calculos_8py}\index{src/calculos.py@{src/calculos.py}}
+
+
+Módulo com todas as funções lógicas e matemáticas.  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{calculos_8py_a60f3fbe35d90dc00adaf71cabe4a61d3}{calculos.\+perguntar\+\_\+continuar}} ()
+\begin{DoxyCompactList}\small\item\em Pergunta ao utilizador se deseja continuar. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_aec0c6f964c14e964b6ae0273a18cc3a2}{calculos.\+numero\+\_\+valido}} (prompt, numero\+\_\+min, numero\+\_\+max)
+\begin{DoxyCompactList}\small\item\em Solicita e valida uma entrada numérica do usuário. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a6c33e80f043cd3583f7a58fbc1ff5d79}{calculos.\+valor\+\_\+aleatorio}} (vector)
+\begin{DoxyCompactList}\small\item\em Retorna um elemento aleatório do vetor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a3425c0a628b1caf5d8371c6aea0e83cc}{calculos.\+calcular\+\_\+seno}} (vector)
+\begin{DoxyCompactList}\small\item\em Calcula o seno de cada elemento do vetor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_ae5b7af6bc80062eda864dcb93930342c}{calculos.\+matriz\+\_\+2x16}} (vector)
+\begin{DoxyCompactList}\small\item\em Constrói uma matriz 2xN. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a8b0d756691ad62fe04aacecf4b103010}{calculos.\+divisivel\+\_\+3}} (vector)
+\begin{DoxyCompactList}\small\item\em Encontra valores no vetor divisíveis por três. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_af2ce3c7407a6b9e0745f2ca84745b1aa}{calculos.\+multiplicar\+\_\+por\+\_\+el\+\_\+ultimo}} (vector)
+\begin{DoxyCompactList}\small\item\em Multiplica cada elemento do vetor pelo último elemento. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a06ce2b09a9996db0affbf06732a1f40b}{calculos.\+orden\+\_\+descreciente}} (vector)
+\begin{DoxyCompactList}\small\item\em Ordena o vetor em ordem decrescente. \end{DoxyCompactList}\item 
+\Hypertarget{calculos_8py_a5f905dde707514d62940c8e8d1a8bdd5}\label{calculos_8py_a5f905dde707514d62940c8e8d1a8bdd5} 
+{\bfseries calculos.\+mostrar\+\_\+ajuda} ()
+\begin{DoxyCompactList}\small\item\em Exibe uma simulação da mensagem de ajuda do argparse. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a9a81c03137d3e8063c438753d116943b}{calculos.\+mitad\+\_\+mitad}} (vector\+\_\+original)
+\begin{DoxyCompactList}\small\item\em Cria um novo vetor misturando metade do original com metade de um novo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a10af2b5204155f098f38d6f50b935c70}{calculos.\+numeros\+\_\+primos}} (vector)
+\begin{DoxyCompactList}\small\item\em Encontra os números primos no vetor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a58d863cdd0370cda491d7d7b96dbf811}{calculos.\+matriz\+\_\+16x16}} (vector\+\_\+initial)
+\begin{DoxyCompactList}\small\item\em Gera uma matriz NxN a partir do produto de dois vetores. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_afde4f2e69136b33f458dace776a6bb51}{calculos.\+calcular\+\_\+determinante}} (matrix)
+\begin{DoxyCompactList}\small\item\em Calcula o determinante da matriz NxN. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_a9c929100e42da0c8fdb47cd58444fa3c}{calculos.\+processar\+\_\+escolha}} (opcao, Vetor, matriz\+\_\+resultante\+\_\+final)
+\begin{DoxyCompactList}\small\item\em Processa uma opção escolhida e imprime o resultado. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{calculos_8py_aae220c419cde31b866a2030f366e96d2}{calculos.\+mostrar\+\_\+menu}} (Vetor, matriz\+\_\+resultante\+\_\+final)
+\begin{DoxyCompactList}\small\item\em Muestra el menú interactivo y gestiona la elección del usuario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{calculos_8py_aeeee2a8fe1b219a26bf94a2231266a67}\label{calculos_8py_aeeee2a8fe1b219a26bf94a2231266a67} 
+int {\bfseries calculos.\+VECTOR\+\_\+\+SIZE} = 16
+\item 
+\Hypertarget{calculos_8py_af33626d1b2e1e978399997ab54fb4b74}\label{calculos_8py_af33626d1b2e1e978399997ab54fb4b74} 
+str {\bfseries calculos.\+RED} = \textquotesingle{}\textbackslash{}033\mbox{[}91m\textquotesingle{}
+\item 
+\Hypertarget{calculos_8py_ae166853a2d3d46bafa8afd6277f42b17}\label{calculos_8py_ae166853a2d3d46bafa8afd6277f42b17} 
+str {\bfseries calculos.\+GREEN} = \textquotesingle{}\textbackslash{}033\mbox{[}92m\textquotesingle{}
+\item 
+\Hypertarget{calculos_8py_a2369f177f49b1209a85cf77457dda104}\label{calculos_8py_a2369f177f49b1209a85cf77457dda104} 
+str {\bfseries calculos.\+YELLOW} = \textquotesingle{}\textbackslash{}033\mbox{[}93m\textquotesingle{}
+\item 
+\Hypertarget{calculos_8py_ad982d20e1ad71bf5f96429fefc037711}\label{calculos_8py_ad982d20e1ad71bf5f96429fefc037711} 
+str {\bfseries calculos.\+CYAN} = \textquotesingle{}\textbackslash{}033\mbox{[}96m\textquotesingle{}
+\item 
+\Hypertarget{calculos_8py_af1830e46fca6389b0ef359ed47ec2afd}\label{calculos_8py_af1830e46fca6389b0ef359ed47ec2afd} 
+str {\bfseries calculos.\+BOLD} = \textquotesingle{}\textbackslash{}033\mbox{[}1m\textquotesingle{}
+\item 
+\Hypertarget{calculos_8py_a5570f4270258d61b90234f3c5ba53523}\label{calculos_8py_a5570f4270258d61b90234f3c5ba53523} 
+str {\bfseries calculos.\+ITALIC} = \textquotesingle{}\textbackslash{}033\mbox{[}3m\textquotesingle{}
+\item 
+\Hypertarget{calculos_8py_a24ef3ce2915f3a6ec240de6192e6619c}\label{calculos_8py_a24ef3ce2915f3a6ec240de6192e6619c} 
+str {\bfseries calculos.\+RESET} = \textquotesingle{}\textbackslash{}033\mbox{[}0m\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Módulo com todas as funções lógicas e matemáticas. 
+
+Contém as funções para validar números, cálculos de matrizes, operações com vetores e o menu principal. \begin{DoxyAuthor}{Author}
+Gabriel Salazar, Daniel Colavito, Leandro Apolo, Jorge Altamirano 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+2 
+\end{DoxyVersion}
+
+
+\label{doc-func-members}
+\Hypertarget{calculos_8py_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{calculos_8py_afde4f2e69136b33f458dace776a6bb51}\index{calculos.py@{calculos.py}!calcular\_determinante@{calcular\_determinante}}
+\index{calcular\_determinante@{calcular\_determinante}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{calcular\_determinante()}{calcular\_determinante()}}
+{\footnotesize\ttfamily \label{calculos_8py_afde4f2e69136b33f458dace776a6bb51} 
+calculos.\+calcular\+\_\+determinante (\begin{DoxyParamCaption}\item[{}]{matrix}{}\end{DoxyParamCaption})}
+
+
+
+Calcula o determinante da matriz NxN. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Matriz quadrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Valor do determinante ou mensagem de erro. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a3425c0a628b1caf5d8371c6aea0e83cc}\index{calculos.py@{calculos.py}!calcular\_seno@{calcular\_seno}}
+\index{calcular\_seno@{calcular\_seno}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{calcular\_seno()}{calcular\_seno()}}
+{\footnotesize\ttfamily \label{calculos_8py_a3425c0a628b1caf5d8371c6aea0e83cc} 
+calculos.\+calcular\+\_\+seno (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Calcula o seno de cada elemento do vetor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista dos senos dos elementos do vetor. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a8b0d756691ad62fe04aacecf4b103010}\index{calculos.py@{calculos.py}!divisivel\_3@{divisivel\_3}}
+\index{divisivel\_3@{divisivel\_3}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{divisivel\_3()}{divisivel\_3()}}
+{\footnotesize\ttfamily \label{calculos_8py_a8b0d756691ad62fe04aacecf4b103010} 
+calculos.\+divisivel\+\_\+3 (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Encontra valores no vetor divisíveis por três. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de valores divisíveis por três. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a58d863cdd0370cda491d7d7b96dbf811}\index{calculos.py@{calculos.py}!matriz\_16x16@{matriz\_16x16}}
+\index{matriz\_16x16@{matriz\_16x16}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{matriz\_16x16()}{matriz\_16x16()}}
+{\footnotesize\ttfamily \label{calculos_8py_a58d863cdd0370cda491d7d7b96dbf811} 
+calculos.\+matriz\+\_\+16x16 (\begin{DoxyParamCaption}\item[{}]{vector\+\_\+initial}{}\end{DoxyParamCaption})}
+
+
+
+Gera uma matriz NxN a partir do produto de dois vetores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector\+\_\+initial} & Vetor inicial de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Matriz NxN resultante do produto. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_ae5b7af6bc80062eda864dcb93930342c}\index{calculos.py@{calculos.py}!matriz\_2x16@{matriz\_2x16}}
+\index{matriz\_2x16@{matriz\_2x16}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{matriz\_2x16()}{matriz\_2x16()}}
+{\footnotesize\ttfamily \label{calculos_8py_ae5b7af6bc80062eda864dcb93930342c} 
+calculos.\+matriz\+\_\+2x16 (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Constrói uma matriz 2xN. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Matriz 2xN (lista de listas). 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a9a81c03137d3e8063c438753d116943b}\index{calculos.py@{calculos.py}!mitad\_mitad@{mitad\_mitad}}
+\index{mitad\_mitad@{mitad\_mitad}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{mitad\_mitad()}{mitad\_mitad()}}
+{\footnotesize\ttfamily \label{calculos_8py_a9a81c03137d3e8063c438753d116943b} 
+calculos.\+mitad\+\_\+mitad (\begin{DoxyParamCaption}\item[{}]{vector\+\_\+original}{}\end{DoxyParamCaption})}
+
+
+
+Cria um novo vetor misturando metade do original com metade de um novo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector\+\_\+original} & Vetor original de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vetor misturado (Metade original + Metade novo). 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_aae220c419cde31b866a2030f366e96d2}\index{calculos.py@{calculos.py}!mostrar\_menu@{mostrar\_menu}}
+\index{mostrar\_menu@{mostrar\_menu}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{mostrar\_menu()}{mostrar\_menu()}}
+{\footnotesize\ttfamily \label{calculos_8py_aae220c419cde31b866a2030f366e96d2} 
+calculos.\+mostrar\+\_\+menu (\begin{DoxyParamCaption}\item[{}]{Vetor}{, }\item[{}]{matriz\+\_\+resultante\+\_\+final}{}\end{DoxyParamCaption})}
+
+
+
+Muestra el menú interactivo y gestiona la elección del usuario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Vetor} & El vector principal con el que se trabaja. \\
+\hline
+{\em matriz\+\_\+resultante\+\_\+final} & La variable global para almacenar la matriz. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No retorna nada, pero ejecuta otras funciones según la elección. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_af2ce3c7407a6b9e0745f2ca84745b1aa}\index{calculos.py@{calculos.py}!multiplicar\_por\_el\_ultimo@{multiplicar\_por\_el\_ultimo}}
+\index{multiplicar\_por\_el\_ultimo@{multiplicar\_por\_el\_ultimo}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{multiplicar\_por\_el\_ultimo()}{multiplicar\_por\_el\_ultimo()}}
+{\footnotesize\ttfamily \label{calculos_8py_af2ce3c7407a6b9e0745f2ca84745b1aa} 
+calculos.\+multiplicar\+\_\+por\+\_\+el\+\_\+ultimo (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Multiplica cada elemento do vetor pelo último elemento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista resultante da multiplicação. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_aec0c6f964c14e964b6ae0273a18cc3a2}\index{calculos.py@{calculos.py}!numero\_valido@{numero\_valido}}
+\index{numero\_valido@{numero\_valido}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{numero\_valido()}{numero\_valido()}}
+{\footnotesize\ttfamily \label{calculos_8py_aec0c6f964c14e964b6ae0273a18cc3a2} 
+calculos.\+numero\+\_\+valido (\begin{DoxyParamCaption}\item[{}]{prompt}{, }\item[{}]{numero\+\_\+min}{, }\item[{}]{numero\+\_\+max}{}\end{DoxyParamCaption})}
+
+
+
+Solicita e valida uma entrada numérica do usuário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prompt} & Mensagem para o usuário. \\
+\hline
+{\em numero\+\_\+min} & Valor mínimo permitido. \\
+\hline
+{\em numero\+\_\+max} & Valor máximo permitido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Número inteiro válido dentro do intervalo. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a10af2b5204155f098f38d6f50b935c70}\index{calculos.py@{calculos.py}!numeros\_primos@{numeros\_primos}}
+\index{numeros\_primos@{numeros\_primos}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{numeros\_primos()}{numeros\_primos()}}
+{\footnotesize\ttfamily \label{calculos_8py_a10af2b5204155f098f38d6f50b935c70} 
+calculos.\+numeros\+\_\+primos (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Encontra os números primos no vetor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de números primos encontrados. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a06ce2b09a9996db0affbf06732a1f40b}\index{calculos.py@{calculos.py}!orden\_descreciente@{orden\_descreciente}}
+\index{orden\_descreciente@{orden\_descreciente}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{orden\_descreciente()}{orden\_descreciente()}}
+{\footnotesize\ttfamily \label{calculos_8py_a06ce2b09a9996db0affbf06732a1f40b} 
+calculos.\+orden\+\_\+descreciente (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Ordena o vetor em ordem decrescente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vetor ordenado em ordem decrescente. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a60f3fbe35d90dc00adaf71cabe4a61d3}\index{calculos.py@{calculos.py}!perguntar\_continuar@{perguntar\_continuar}}
+\index{perguntar\_continuar@{perguntar\_continuar}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{perguntar\_continuar()}{perguntar\_continuar()}}
+{\footnotesize\ttfamily \label{calculos_8py_a60f3fbe35d90dc00adaf71cabe4a61d3} 
+calculos.\+perguntar\+\_\+continuar (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Pergunta ao utilizador se deseja continuar. 
+
+\begin{DoxyReturn}{Returns}
+True se a resposta for \textquotesingle{}S\textquotesingle{}, False caso contrário. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a9c929100e42da0c8fdb47cd58444fa3c}\index{calculos.py@{calculos.py}!processar\_escolha@{processar\_escolha}}
+\index{processar\_escolha@{processar\_escolha}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{processar\_escolha()}{processar\_escolha()}}
+{\footnotesize\ttfamily \label{calculos_8py_a9c929100e42da0c8fdb47cd58444fa3c} 
+calculos.\+processar\+\_\+escolha (\begin{DoxyParamCaption}\item[{}]{opcao}{, }\item[{}]{Vetor}{, }\item[{}]{matriz\+\_\+resultante\+\_\+final}{}\end{DoxyParamCaption})}
+
+
+
+Processa uma opção escolhida e imprime o resultado. 
+
+Esta função centraliza a lógica de escolha para evitar duplicação entre o menu interativo e a linha de comandos. 
+\begin{DoxyParams}{Parameters}
+{\em opcao} & O número da opção (int ou str). \\
+\hline
+{\em Vetor} & O vetor de dados. \\
+\hline
+{\em matriz\+\_\+resultante\+\_\+final} & A matriz global (lista). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True se deve sair do programa (opção 12), False caso contrário. 
+\end{DoxyReturn}
+\Hypertarget{calculos_8py_a6c33e80f043cd3583f7a58fbc1ff5d79}\index{calculos.py@{calculos.py}!valor\_aleatorio@{valor\_aleatorio}}
+\index{valor\_aleatorio@{valor\_aleatorio}!calculos.py@{calculos.py}}
+\doxysubsubsection{\texorpdfstring{valor\_aleatorio()}{valor\_aleatorio()}}
+{\footnotesize\ttfamily \label{calculos_8py_a6c33e80f043cd3583f7a58fbc1ff5d79} 
+calculos.\+valor\+\_\+aleatorio (\begin{DoxyParamCaption}\item[{}]{vector}{}\end{DoxyParamCaption})}
+
+
+
+Retorna um elemento aleatório do vetor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & Vetor de entrada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Elemento aleatório do vetor. 
+\end{DoxyReturn}

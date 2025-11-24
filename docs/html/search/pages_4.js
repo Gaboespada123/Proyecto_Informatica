@@ -9,8 +9,7 @@ var searchData=
   ['descrição_20das_20funções_6',['Descrição das Funções',['../features.html',1,'workflow']]],
   ['descrição_20do_20fluxo_20de_20trabalho_7',['Descrição do Fluxo de Trabalho',['../workflow.html#autotoc_md2',1,'']]],
   ['detalhes_20das_20funções_20principais_8',['Detalhes das Funções Principais',['../features.html#autotoc_md4',1,'']]],
-  ['divisivel_5f3_9',['divisivel_3',['../calculos_8py.html#a8b0d756691ad62fe04aacecf4b103010',1,'calculos']]],
-  ['do_20fluxo_20de_20trabalho_10',['Descrição do Fluxo de Trabalho',['../workflow.html#autotoc_md2',1,'']]],
-  ['do_20programa_11',['Fluxo do Programa',['../workflow.html',1,'']]],
-  ['documentação_3a_12',['Conteúdo da Documentação:',['../index.html#autotoc_md1',1,'']]]
+  ['do_20fluxo_20de_20trabalho_9',['Descrição do Fluxo de Trabalho',['../workflow.html#autotoc_md2',1,'']]],
+  ['do_20programa_10',['Fluxo do Programa',['../workflow.html',1,'']]],
+  ['documentação_3a_11',['Conteúdo da Documentação:',['../index.html#autotoc_md1',1,'']]]
 ];
