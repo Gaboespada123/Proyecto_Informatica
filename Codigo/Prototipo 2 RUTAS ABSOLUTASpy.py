@@ -1,4 +1,5 @@
-#Aqui solo cargamos y leemos el archivo. Sin las cosas que pide 
+#Aqui solo cargamos y leemos el archivo. Sin las cosas que pide
+
 from pathlib import Path
 import csv
 import sys
