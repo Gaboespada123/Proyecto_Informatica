@@ -1,6 +1,6 @@
 ## @file calculos.py
 #  @brief Módulo com todas as funções lógicas e matemáticas.
-#  @details Contém as funções para validar números, cálculos de matrizes,
+#  @details Contém as funções  para validar números,cálculos de matrizes,
 #           operações com vetores e o menu principal.
 #  @author Gabriel Salazar, Daniel Colavito, Leandro Apolo, Jorge Altamirano
 #  @version 1.2

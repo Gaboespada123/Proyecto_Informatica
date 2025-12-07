@@ -1,3 +1,4 @@
+2
 ## @file main.py
 #  @brief Programa principal otimizado para manipulação de vetores.
 #  @details Ponto de entrada que gere argumentos, inicializa o vetor e inicia o programa.
